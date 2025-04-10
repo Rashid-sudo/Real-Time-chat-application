@@ -10,7 +10,7 @@ A full-stack real-time chat application built using React, Node.js, Express, and
 
 📁 Tech Stack
 Frontend 	          Backend 	   Real-Time 	 Deployment
-React 18	          Node.js 	   Socket.io	  Vercel
+React 18	          Node.js 	    Socket.io	  Vercel
 Socket.io-client	  Express.js    	          Render 
 
 🚀 Getting Started
