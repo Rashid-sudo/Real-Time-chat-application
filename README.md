@@ -48,3 +48,27 @@ cd chat-app
 - npm install
 - npm start
 - The frontend will start on: http://localhost:3000
+
+ ### 🔄 How It Works
+
+- The frontend React app connects to the backend server via Socket.io.
+- When a user sends a message, it's emitted through a socket event.
+- The backend receives it and broadcasts it to all connected clients.
+- Each client receives the message in real time and displays it.
+
+### 📤 Deployment Guide
+### 📌 Backend (Render)
+- (1) Push backend folder to GitHub.
+- (2) Go to Render and create a new Web Service.
+- (3) Set:
+- Build Command: npm install
+- Start Command: node server.js
+- Port: 5000
+
+### 📌 Frontend (Vercel)
+- (1) Push frontend folder to GitHub.
+- (2) Go to Vercel, import the repository.
+- (3) Configure:
+- Framework Preset: React
+- Build Command: npm run build
+- Output Directory: build
